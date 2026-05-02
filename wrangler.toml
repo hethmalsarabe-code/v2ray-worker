@@ -3,6 +3,6 @@ main = "src/worker.ts"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
 
-kv_namespaces = [
-  { binding = "settings", id = "KV_NAME" }
-]
+[[kv_namespaces]]
+binding = "settings"
+id = "a8e8fe9286b14060931ed59d5be5ce53"
